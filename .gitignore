@@ -1,3 +1,4 @@
+# gem standard
 /.bundle/
 /.yardoc
 /_yardoc/
@@ -6,6 +7,10 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+# Cargo
+/target
+**/*.rs.bk
 
 # rspec failure tracking
 .rspec_status
