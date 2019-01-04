@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
+import "lib/tasks/helix_runtime.rake"
 
 namespace :spec do
   RSpec::Core::RakeTask.new(unit: :build) do |task|
